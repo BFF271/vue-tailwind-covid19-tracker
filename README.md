@@ -1,6 +1,9 @@
 # Vue Covid-19 Tracker
 
-Displays the new/total cases and deaths globaly as well as per country
+<img width="940" alt="covidtrackerscreengrab" src="https://user-images.githubusercontent.com/38964004/128434768-9482ce9e-e5a5-4af9-8934-a955944d6591.png">
+
+
+Displays the new/total cases and new/total deaths globally as well as per country
 
 ## API
 
