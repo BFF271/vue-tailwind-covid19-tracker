@@ -1,6 +1,6 @@
 <template>
   <main v-if="!loading">
-    Show Data
+    <DataTitle :text="title" :date="dataDate"/>
   </main>
   <main class="flex flex-col align-center justify-center text-center"
   v-else>
@@ -14,10 +14,8 @@
 </template>
 
 <script>
-import CountrySelect from '@/components/CountrySelect';
-import DataBoxes from '@/components/DataBoxes';
+
 import DataTitle from '@/components/DataTitle';
-import { ref } from 'vue';
 
 export default {
   name: 'Home',

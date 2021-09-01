@@ -10,7 +10,6 @@
 <script>
 import dayjs from 'dayjs';
 import { computed } from 'vue';
-
 export default {
   name: 'DataTitle',
   props: ['text', 'dataDate'],
